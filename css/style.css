@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    font: 15px;
+}
+
+/* common classes  */
+.container{
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-btn{
+    color: #ffff;
+    background-color: #5385C1;
+    display: inline-block;
+    padding: 0.6rem 1.1rem;
+    text-decoration: none;
+}
+
+/* nav section   */
+.bg-img{
+    width: 100%;
+    min-height: 65vh;
+    background-image: url(../img/dd.jpg);
+    background-size: cover;
+    background-position: top center;
+    border-top: 10px solid #5385c1;
+}
+.bg-img nav{
+    justify-content: space-between;
+    padding: 2rem 0 ;
+}
+nav .logo{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1.73rem;
+    font-weight: 300;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    padding-left: 2rem;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* bvanner section */
+.banner{
+    text-align: center;
+    margin-top: 8rem;
+}
+.banner h1{
+    font-size: 4em;
+    color: #fff;
+    font-weight: 100;
+}
+.banner p{
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+/* three box  */
+
+.three-box {
+    padding: 3.33rem 0;
+}
+.box-wrapper{
+    justify-content: space-between;
+}
+.three-box .box{
+    width: 30%;
+}
+.box h2{
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    color: #5385c1;
+}
+.box p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 1.6rem;
+    line-height: 1.6rem;
+}
+hr{
+    width: 1px;
+    color: #818181;
+}
+
+/* person information */
+.person-information{
+    width: 100%;
+    background-color: #5385c1;
+    padding: 4rem 0;
+}
+.person-text{
+    text-align: center;
+    color: #fff;
+}
+.person-text h3{
+    font-size: 3.3rem;
+    font-weight: 100;
+    margin-bottom: 0.6rem;
+}
+.person-text p{
+    font-size:1.3rem;
+    font-weight: 100;
+    margin-bottom: 3rem;
+}
+.person-information .three-div{
+    justify-content: space-between;
+}
+.three-div .img{
+    width: 23%;
+    border: 1px solid #fff;
+    padding: 1.5rem;
+}
+.img img{
+    border-radius: 50%;
+    width: 100% ;
+}
+.img h1{
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 1rem;
+}
+.img p{
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* article section */
+.article-section{
+    padding: 3.5rem;
+}
+.pictures{
+    text-align: center;
+    color: #5385C1;
+}
+.pictures h1{
+    font-size: 2.2rem;
+    font-weight: 100;
+    margin-bottom: 0.5rem;
+}
+.pictures p{
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-bottom: 3rem;
+    color: grey;
+    font-weight: 300;
+}
+.pictures .article-img{
+    justify-content: space-between;
+    width: 100%;
+}
+.article-img .left{
+    width: 47%;
+    text-align: left;
+}
+.left img{
+    width: 100%;
+}
+.left h1{
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+.left p{
+    margin-bottom: 2rem;
+}
+
+/* footer section */
+.footer-section {
+    border-top: 1px solid #818181;
+    padding: 2rem 0;
+}
+.footer-section h1{
+    font-size: 0.8rem;
+}
